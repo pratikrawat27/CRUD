@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Student</title>
+</head>
+
+<body>
+    <header>
+        <h1>Student</h1>
+        <button id="addButton">Add Student</button>
+    </header>
+
+    <div id="studentForm">
+        <h2>Add Student</h2>
+        <div id="studentAddForm">
+            <input type="text" id="nameInput" placeholder="Name" required>
+            <input type="text" id="addressInput" placeholder="Address" required>
+            <input type="hidden" id="id" value="">
+            <button type="button" id="saveButton">Save</button>
+            <button type="button" id="editButton">Update</button>
+        </div>
+    </div>
+    <table id="studentTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+</body>
+<script src="jquery-3.7.1.min.js"></script>
+<script src="index.js"></script>
+
+</html>
